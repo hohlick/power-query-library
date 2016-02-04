@@ -54,7 +54,7 @@ in Value.ToJson
 
 /* Example
 
-Value.ToJson([
+__("Value.ToJson")([
     array = {1, 2, 3},
     boolean = true,
     datetime = #datetime(2013,1,3,12,4,5),
