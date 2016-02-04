@@ -1,6 +1,6 @@
 /*
   -----------------------------------------------------------------------------
-  MIT License | https://github.com/power-query/power-query-library
+  GPLv3 | https://github.com/power-query/power-query-library
   -----------------------------------------------------------------------------
   Authors: Max Buyers
   Function: Value.TypeToText
