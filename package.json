@@ -1,0 +1,43 @@
+{
+  "name": "power-query-library",
+  "version": "0.0.0",
+  "description": "Microsoft Power Query library for most popular API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:power-query/power-query-library.git"
+  },
+  "keywords": [
+    "power query",
+    "powerquery"
+  ],
+  "contributors": [
+    {
+      "name": "Max Buyers",
+      "email": "git@maxbuyers.com",
+      "url": "https://vk.com/maxbuyers"
+    },
+    {
+      "name": "Maxim Uvarov"
+    }
+  ],
+  "license": "GPLv3",
+  "homepage": "https://github.com/power-query/power-query-library/",
+  "devDependencies": {
+    "express": "*",
+    "gulp": "*",
+    "gulp-batch-replace": "*",
+    "gulp-debug": "*",
+    "gulp-file-contents-to-json": "*",
+    "gulp-jsonminify": "*",
+    "gulp-nodemon": "*",
+    "gulp-notify": "*",
+    "gulp-regex-rename": "*",
+    "gulp-rename": "*",
+    "require-dir": "*"
+  }
+}
