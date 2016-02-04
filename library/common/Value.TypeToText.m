@@ -5,7 +5,7 @@
   Authors: Max Buyers
   Function: Value.TypeToText
   Returns:  The primary value type name as string
-  Example:  Value.TypeToText({1,2,3}) => "list"
+  Example:  __("Value.TypeToText")({1,2,3})
   Depends:  none
   Comments: Inspired by tycho01 https://github.com/tycho01/pquery
   -----------------------------------------------------------------------------
