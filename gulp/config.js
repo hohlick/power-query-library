@@ -5,7 +5,7 @@ var path = require('path');
 
 //- --------- CONFIGS
 var port = 1337;
-var dir_projectroot = '';
+var dir_projectroot = './';
 var dir_library = path.join(dir_projectroot, '/library');
 
 var file_library = 'library.json';
@@ -19,6 +19,7 @@ module.exports = {
   file_library_dev: file_library_dev,
 
   m: {
+    //src: './library/**/*.m',
     src: [
       path.join(dir_library, '/**/*.m'),
       path.join('!', dir_library, '/**/_*{.m,/**}')
