@@ -20,6 +20,11 @@ in
   Record.TransformFields(JSON, Transforms)
 ```
 
+
+> **NOTE!**
+>
+> CDN-link to the library may change in the near future. If you encounter an error *"DataSource.Error: Web.Contents failed to get contents"* in Power Query, please go to this page for the renew your code.
+
 ![alt text](docs/media/how-to-connect1.png "Library connection screenshot")
 
 
