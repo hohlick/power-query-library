@@ -10,7 +10,7 @@ Microsoft Power Query library for most popular API
 
 ```jsx
 let
-  CDN = "https://cdn.rawgit.com/power-query/power-query-library/master/library/library.json",
+  CDN = "https://rawgit.com/power-query/power-query-library/master/library/library.json",
   JSON = Json.Document(Binary.Buffer(Web.Contents(CDN))),
   Names = Record.FieldNames(JSON),
   Function.Evaluate = (code as text) as function => Expression.Evaluate(code, #shared),
