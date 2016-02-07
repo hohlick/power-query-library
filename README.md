@@ -37,6 +37,8 @@ in
 (name) => Record.Field(Library, name)
 ```
 
+> Thanks [tycho01](hhttps://github.com/tycho01 "tycho01 github homepage") for the loader idea :)
+
 ![alt text](docs/media/how-to-connect2.png "Library functions-loader connection Screenshot")
 
 ## Using the library functions in Excel or Power BI
